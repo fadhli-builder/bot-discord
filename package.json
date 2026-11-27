@@ -1,0 +1,20 @@
+{
+  "name": "kenalbot",
+  "version": "1.0.0",
+  "description": "Bot Discord cari teman random — aman & ramah",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "deploy": "node src/deploy-commands.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/voice": "^0.19.2",
+    "better-sqlite3": "^12.2.0",
+    "discord.js": "^14.16.3",
+    "dotenv": "^16.4.5",
+    "tweetnacl": "^1.0.3"
+  }
+}
